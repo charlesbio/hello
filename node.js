@@ -29,10 +29,11 @@ function getPrimes(max) {
 var fmt = function(arr) {
 return arr.join(" ");
 };
-
-
+var getarr = getPrimes(num);
+console.log(getarr);
+/*
 var getarr = getPrimes(num);
 var output = fmt(getarr);
 var texttowrite = fmt(output);
 fs.writeFileSync(outfile, texttowrite);
-console.log("Script: " + __filename + "\nWrote: " + texttowrite + "To: " + outfile);
+console.log("Script: " + __filename + "\nWrote: " + texttowrite + "To: " + outfile);*/
