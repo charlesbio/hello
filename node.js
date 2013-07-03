@@ -19,6 +19,11 @@ return arr;
 	
 };
 
+var fmt = function(arr) {
+return arr.join(" ");
+};
+
+
 var output =firstkfib(loop);
 var texttowrite = fmt(output);
 fs.writeFileSync(outfile, texttowrite);
