@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var outfile = "prime.txt";
-var loop = 100;
+var loop = 30;
 
 var fibonacci = function(n) {
 if(n < 1) {return 0; }
