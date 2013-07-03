@@ -22,6 +22,6 @@ return arr;
 	
 };
 
-var output =firstkfib(b);
+var output =firstkfib(loop);
 fs.writeFileSync(outfile, output);  
 console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
