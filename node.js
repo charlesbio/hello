@@ -22,4 +22,4 @@ return arr;
 var output =firstkfib(loop);
 var texttowrite = fmt(output);
 fs.writeFileSync(outfile, texttowrite);
-console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
+console.log("Script: " + __filename + "\nWrote: " + texttowrite + "To: " + outfile);
