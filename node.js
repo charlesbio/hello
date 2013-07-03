@@ -30,8 +30,8 @@ var fmt = function(arr) {
 return arr.join(" ");
 };
 var getarr = getPrimes(num);
-var output = fmt(getarr);
-console.log(output);
+var output2 = fmt(getarr);
+console.log(output2);
 /*
 var getarr = getPrimes(num);
 var output = fmt(getarr);
