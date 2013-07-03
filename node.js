@@ -31,10 +31,5 @@ return arr.join(" ");
 };
 var getarr = getPrimes(num);
 var output2 = fmt(getarr);
+fs.writeFileSync(outfile, output2);
 console.log(output2);
-/*
-var getarr = getPrimes(num);
-var output = fmt(getarr);
-var texttowrite = fmt(output);
-fs.writeFileSync(outfile, texttowrite);
-console.log("Script: " + __filename + "\nWrote: " + texttowrite + "To: " + outfile);*/
